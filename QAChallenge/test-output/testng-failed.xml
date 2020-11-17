@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="studentPerspective.ViewClassBoard">
+      <class name="studentPerspective.ViewAssignedLesson">
         <methods>
-          <include name="viewClassBoard"/>
+          <include name="viewLesson"/>
         </methods>
-      </class> <!-- studentPerspective.ViewClassBoard -->
+      </class> <!-- studentPerspective.ViewAssignedLesson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
