@@ -30,10 +30,9 @@ public class AddLinkToBookshelf {
 		//Login
 		loginPage = new LoginPage(driver);
 		//Test Account Credentials
-		loginPage.login(email, password);
+		loginPage.login("jacobaerwin@gmail.com", "P90m9a11!!");
 				
 		WebDriverWait wait = new WebDriverWait(driver, 5);
-		wait.until(ExpectedConditions.urlContains("home"));
 		
 		driver.get(myBookshelfURL);
 		myBookshelfPage = new MyBookshelfPage(driver);
