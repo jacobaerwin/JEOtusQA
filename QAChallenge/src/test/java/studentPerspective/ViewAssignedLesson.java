@@ -30,7 +30,7 @@ public class ViewAssignedLesson {
 		loginPage = new LoginPage(driver);
 		
 		//Test Account Credentials
-		loginPage.login("jacobaerwin@gmail.com", "P90m9a11!!");
+		loginPage.login("", "");
 		
 		//View Lesson
 		driver.get(lessonURL);
