@@ -27,7 +27,7 @@ public class ViewGradebook {
 		//Login
 		loginPage = new LoginPage(driver);
 		//Test Account Credentials
-		loginPage.login("jacobaerwin@gmail.com", "P90m9a11!!");
+		loginPage.login("", "");
 		
 		driver.get(gradebookURL);
 		
