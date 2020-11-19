@@ -35,7 +35,7 @@ public class ViewClassBoard {
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		wait.until(ExpectedConditions.urlContains("login"));
 		//Test Account Credentials 
-		loginPage.login("jacobaerwin@gmail.com", "P90m9a11!!");
+		loginPage.login("", "");
 				
 		wait.until(ExpectedConditions.urlContains("home"));
 		
