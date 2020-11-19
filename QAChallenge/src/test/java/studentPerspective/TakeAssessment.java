@@ -32,7 +32,7 @@ public class TakeAssessment {
 		//Login
 		loginPage = new LoginPage(driver);
 		//Test Account Credentials
-		loginPage.login("jacobaerwin@gmail.com", "P90m9a11!!");
+		loginPage.login("", "");
 		
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		
